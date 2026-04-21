@@ -3,7 +3,7 @@ set(include_dirs . ../firmware_target)
 
 idf_component_register(SRCS ${srcs}
                        INCLUDE_DIRS ${include_dirs} "."
-                       REQUIRES esp-serial-flasher u8g2 u8g2 esp-u8g2-hal esp32-button)
+                       REQUIRES esp-serial-flasher u8g2 u8g2 esp-u8g2-hal esp32-button esp_driver_i2c)
 
 set(target ${COMPONENT_LIB})
 

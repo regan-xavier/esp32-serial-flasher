@@ -1,7 +1,7 @@
 {
     "idf.adapterTargetName": "esp32",
     "idf.flashType": "UART",
-    "idf.portWin": "COM3",
+    "idf.portWin": "COM13",
     "files.associations": {
         "button.h": "c",
         "example_common.h": "c",
@@ -24,5 +24,6 @@
     "idf.openOcdConfigs": [
         "interface/ftdi/esp32_devkitj_v1.cfg",
         "target/esp32.cfg"
-    ]
+    ],
+    "idf.currentSetup": "C:\\Users\\RND-02\\esp\\v5.4\\esp-idf"
 }
