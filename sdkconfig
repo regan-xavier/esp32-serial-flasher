@@ -1886,7 +1886,28 @@ CONFIG_WIFI_PROV_STA_ALL_CHANNEL_SCAN=y
 #
 # ESP serial flasher
 #
-CONFIG_SERIAL_FLASHER_MD5_ENABLED=y
+CONFIG_SERIAL_FLASHER_RESET_HOLD_TIME_MS=100
+CONFIG_SERIAL_FLASHER_BOOT_HOLD_TIME_MS=50
+# CONFIG_SERIAL_FLASHER_DEBUG_TRACE is not set
+CONFIG_SERIAL_FLASHER_WRITE_BLOCK_RETRIES=3
+# CONFIG_SERIAL_FLASHER_RESET_INVERT is not set
+# CONFIG_SERIAL_FLASHER_BOOT_INVERT is not set
+
+#
+# Port selection
+#
+
+#
+# Select which built-in port implementations to compile into the library.
+#
+
+#
+# Enable multiple ports to allow runtime switching between interfaces.
+#
+CONFIG_SERIAL_FLASHER_PORT_UART=y
+# CONFIG_SERIAL_FLASHER_PORT_SPI is not set
+# CONFIG_SERIAL_FLASHER_PORT_SDIO is not set
+# end of Port selection
 # end of ESP serial flasher
 
 #
