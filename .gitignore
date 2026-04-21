@@ -99,3 +99,4 @@ safetycook notes/*
 
 # firmware_target (2-2)
 # firmware_target/archive
+/components
